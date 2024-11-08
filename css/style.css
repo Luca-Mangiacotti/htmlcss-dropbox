@@ -172,6 +172,7 @@ header .headright .btnu{
 
 #sez1 .btnu{
     margin: 40px 0px;
+    padding: 20px;
 }
 
 .freccia{
@@ -186,4 +187,29 @@ header .headright .btnu{
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+.specialist li{
+    list-style-image: url(../marker/check-solid.svg);
+}
+
+.toplist1 li:nth-of-type(1){
+    list-style-image: url(../marker/user-solid.svg);
+}
+
+.toplist2 li:nth-of-type(1){
+    list-style-image: url(../marker/users-solid.svg);
+}
+
+.toplist1 li:nth-of-type(2),
+.toplist2 li:nth-of-type(2){
+    list-style-image: url(../marker/folder-solid.svg);
+}
+
+.toplist1 li:nth-of-type(3),
+.toplist2 li:nth-of-type(3){
+    list-style-image: url(../marker/share-nodes-solid.svg);
 }
