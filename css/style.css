@@ -30,3 +30,41 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+
+header a{
+    text-decoration: none;
+}
+
+/*----------------------
+        HEADER        
+-----------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: baseline;
+    position: sticky;
+    top: 0;
+}
+
+header .headleft .logo{
+    display: inline-block;
+    position: relative;
+    top: 5px;
+}
+
+header .headleft{
+    max-width: 100%;
+    text-align: center;
+}
+
+header .headleft a,
+header .headleft .logo{
+    margin-right: 35px;
+}
+
+header .headright a,
+header .headright .btnhead{
+    margin-left: 35px;
+}
