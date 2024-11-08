@@ -1,0 +1,32 @@
+/*----------------------
+         RESET          
+-----------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------
+        SET GENERALI        
+-----------------------*/
+.containerlarge{
+    
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.containersmall{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------------
+        TYPOGRAPHY        
+-----------------------*/
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
