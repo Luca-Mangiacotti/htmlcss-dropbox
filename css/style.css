@@ -144,6 +144,38 @@ header .headright .btnu{
     margin-left: 35px;
 }
 
+/*----------------------
+    MARKER PER MAIN       
+-----------------------*/
+
+ul{
+    list-style-type: none;
+    list-style-position: outside;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.specialist li{
+    list-style-image: url(../marker/check-solid.svg);
+}
+
+.toplist1 li:nth-of-type(1){
+    list-style-image: url(../marker/user-solid.svg);
+}
+
+.toplist2 li:nth-of-type(1){
+    list-style-image: url(../marker/users-solid.svg);
+}
+
+.toplist1 li:nth-of-type(2),
+.toplist2 li:nth-of-type(2){
+    list-style-image: url(../marker/folder-solid.svg);
+}
+
+.toplist1 li:nth-of-type(3),
+.toplist2 li:nth-of-type(3){
+    list-style-image: url(../marker/share-nodes-solid.svg);
+}
+
 
 /*----------------------
         MAIN       
@@ -184,32 +216,8 @@ header .headright .btnu{
 #sez2 .colonna .btnu{
     margin-top: 40px ;
     margin-bottom: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 20px;
 }
 
-ul{
-    list-style-type: none;
-}
-.specialist li{
-    list-style-image: url(../marker/check-solid.svg);
-}
-
-.toplist1 li:nth-of-type(1){
-    list-style-image: url(../marker/user-solid.svg);
-}
-
-.toplist2 li:nth-of-type(1){
-    list-style-image: url(../marker/users-solid.svg);
-}
-
-.toplist1 li:nth-of-type(2),
-.toplist2 li:nth-of-type(2){
-    list-style-image: url(../marker/folder-solid.svg);
-}
-
-.toplist1 li:nth-of-type(3),
-.toplist2 li:nth-of-type(3){
-    list-style-image: url(../marker/share-nodes-solid.svg);
-}
