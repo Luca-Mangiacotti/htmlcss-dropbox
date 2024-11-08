@@ -23,6 +23,19 @@
     margin-right: auto;
 }
 
+.riga{
+    display: flex;
+
+}
+
+.btnu{
+    padding: 3px 5px;
+    border: 0px;
+    background-color: #0061fe;
+    color: #fff;
+}
+
+
 /*----------------------
         TYPOGRAPHY        
 -----------------------*/
@@ -33,6 +46,13 @@ body{
 
 header a{
     text-decoration: none;
+    font-size: 14px;
+}
+
+#sez1 h1{
+    font-size: 65px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 /*----------------------
@@ -42,10 +62,12 @@ header a{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 25px;
+    padding: 25px 0px;
     align-items: baseline;
     position: sticky;
     top: 0;
+    z-index: 10;
+    background-color: #fff;
 }
 
 header .headleft .logo{
@@ -54,10 +76,6 @@ header .headleft .logo{
     top: 5px;
 }
 
-header .headleft{
-    max-width: 100%;
-    text-align: center;
-}
 
 header .headleft a,
 header .headleft .logo{
@@ -65,6 +83,42 @@ header .headleft .logo{
 }
 
 header .headright a,
-header .headright .btnhead{
+header .headright .btnu{
     margin-left: 35px;
+}
+
+
+/*----------------------
+        MAIN       
+-----------------------*/
+
+.back-colortop{
+    background-color: #b4d0e6;   
+}
+
+#sez1 .riga .colsmall{
+    width: 30%;
+}
+
+#sez1 .riga .colbig{
+    width: 70%;
+}
+
+#sez1 .riga .colbig img{
+    max-width: 100%;
+}
+
+#sez1 .containerlarge{
+    position: relative;
+    top: 100px;
+}
+
+#sez1 .btnu{
+    margin: 40px 0px;
+}
+
+.freccia{
+    font-size: 50px;
+    position: absolute;
+    bottom: 120px;
 }
