@@ -272,3 +272,18 @@ ul{
 #sez5 .riga:last-of-type{
     margin-bottom: 50px;
 }
+
+/*----------------------
+        FOOTER      
+-----------------------*/
+
+footer{
+    margin-top: 150px;
+    padding: 100px 0px;
+    background-color: #000000;
+    color: #fff;
+}
+
+footer ul {
+    margin-bottom: 50px;
+}
