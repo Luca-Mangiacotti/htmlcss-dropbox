@@ -185,11 +185,14 @@ ul{
     background-color: #b4d0e6;   
 }
 
-#sez1 .riga .colsmall{
+
+#sez1 .riga .colsmall,
+#sez3 .riga .colsmall{
     width: 30%;
 }
 
-#sez1 .riga .colbig{
+#sez1 .riga .colbig,
+#sez3 .riga .colbig{
     width: 70%;
 }
 
@@ -221,3 +224,16 @@ ul{
     padding: 20px;
 }
 
+#sez3 .col-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#sez3 button{
+    padding: 20px;
+    position: absolute;
+    top:50px;
+    right:50px;
+}
