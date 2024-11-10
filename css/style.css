@@ -109,6 +109,12 @@ header a{
     font-size: 25px;
 }
 
+#sez4 h2{
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
 .graytext{
     color: #d0cfd4;
 }
@@ -187,16 +193,19 @@ ul{
 
 
 #sez1 .riga .colsmall,
-#sez3 .riga .colsmall{
+#sez3 .riga .colsmall,
+#sez4 .riga .colsmall{
     width: 30%;
 }
 
 #sez1 .riga .colbig,
-#sez3 .riga .colbig{
+#sez3 .riga .colbig,
+#sez4 .riga .colbig{
     width: 70%;
 }
 
-#sez1 .riga .colbig img{
+#sez1 .riga .colbig img,
+#sez4 .riga .colbig img{
     max-width: 100%;
 }
 
@@ -229,6 +238,7 @@ ul{
     justify-content: space-between;
     align-items: center;
     position: relative;
+    margin-bottom: 200px;
 }
 
 #sez3 button{
@@ -236,4 +246,13 @@ ul{
     position: absolute;
     top:50px;
     right:50px;
+}
+
+#sez4 button{
+    padding: 10px;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-top: 40px;
+
 }
