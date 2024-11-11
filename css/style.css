@@ -55,7 +55,7 @@
     max-width: 100%;
     line-height: 40px;
     border: 1px solid #d0cfd4;
-    padding: 0px 40px;
+    padding: 20px 40px;
     margin-left: auto;
     margin-right: auto;
 
@@ -90,6 +90,7 @@ body{
 header a{
     text-decoration: none;
     font-size: 14px;
+    color: #000000;
 }
 
 #sez1 h1{
@@ -136,12 +137,13 @@ footer h3{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 25px 0px;
+    padding: 25px 10px;
     align-items: baseline;
     position: sticky;
     top: 0;
     z-index: 10;
     background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
 header .headleft .logo{
@@ -159,6 +161,10 @@ header .headleft .logo{
 header .headright a,
 header .headright .btnu{
     margin-left: 35px;
+}
+
+header .btnu{
+    padding: 10px 15px;
 }
 
 /*----------------------
@@ -245,9 +251,17 @@ ul{
 #sez2 .colonna .btnu{
     margin-top: 40px ;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: auto;
     margin-right: auto;
     padding: 20px;
+}
+
+#sez2 .colonna button{
+    width: 100%;
+}
+
+#sez2 .colonna ul{
+    padding-left: 10px;
 }
 
 #sez3 .col-body{
