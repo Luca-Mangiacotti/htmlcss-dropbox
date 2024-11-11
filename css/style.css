@@ -78,6 +78,18 @@ hr{
     margin-bottom: 50px;
 }
 
+button:hover {
+    background-color: #00f6ff;
+    transition: 0.5s;
+}
+
+#sez4 button:hover {
+    background-color: #d0cfd4;
+    transition: 0.5s;
+}
+
+
+
 /*----------------------
         TYPOGRAPHY        
 -----------------------*/
@@ -103,7 +115,7 @@ header a{
 #sez2 h2,
 #sez5 h2,
 #sez6 h2{
-    font-size: 35px;
+    font-size: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
