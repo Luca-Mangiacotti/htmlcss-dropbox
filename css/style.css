@@ -275,7 +275,12 @@ ul{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-bottom: 200px;
+}
+
+#sez3,
+#sez4,
+#sez5{
+    margin-bottom: 220px;
 }
 
 #sez3 button{
